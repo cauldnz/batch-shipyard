@@ -1,0 +1,23 @@
+{
+    "job_specifications": [
+        {
+            "id": "psi4job",
+            "tasks": [
+                {
+                    "image": "cauldnz/psi4:cpu",
+                    "resource_files": [
+                        {
+                            "file_path": "input.dat",
+                            "blob_source": "https://raw.githubusercontent.com/cauldnz/batch-shipyard/chauldSyncWeek/recipes/PSI4-CPU/scripts/input.dat"
+                        },
+                        {
+                            "file_path": "psi4-demo.py.py",
+                            "blob_source": "https://raw.githubusercontent.com/cauldnz/batch-shipyard/chauldSyncWeek/recipes/PSI4-CPU/scripts/psi4-demo.py"
+                        }
+                    ],
+                    "command": "/bin/bash -c \"export MKL_NUM_THREADS=nproc && export OMP_NUM_THREADS=nproc && psi4 input.dat output.dat && cat output.dat && python -u psi4-demo.py && cat output-python.dat && cat output-python.dat \""
+                }
+            ]
+        }
+    ]
+}

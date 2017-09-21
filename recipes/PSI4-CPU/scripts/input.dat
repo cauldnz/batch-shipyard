@@ -1,0 +1,15 @@
+# Simple demo to test configuration of PSI4 in Batch Shipyard
+# Per Psithon example from http://www.psicode.org/psi4manual/1.1/tutorial.html
+#! Sample HF/cc-pVDZ H2O computation
+
+
+memory 600 mb
+
+molecule h2o {
+  O 
+  H 1 0.96
+  H 1 0.96 2 104.5
+}
+
+set basis cc-pVDZ
+energy('scf')
