@@ -1,4 +1,4 @@
-# H2O-CPU
+# PSI4-CPU
 This recipe shows how to run [PSI4](http://www.psicode.org) on
 a single node using CPU only. This uses the [Anaconda](https://docs.anaconda.com/) packaging mechanism to deploy PSI4 and as such is using pre-built binaries.
 
