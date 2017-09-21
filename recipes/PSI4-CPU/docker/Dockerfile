@@ -26,3 +26,5 @@ RUN \
 	conda config --add channels http://conda.anaconda.org/psi4 && \
 	conda install --yes gcc-5 && \
     conda install --yes -c psi4 psi4
+
+
