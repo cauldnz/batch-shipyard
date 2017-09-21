@@ -1,6 +1,6 @@
 # H2O-CPU
 This recipe shows how to run [H2O](https://www.h2o.ai/) on
-a single node using CPU only. This uses the daily build of the H2O 'Deepwater' branch which supports GPU acceleration and various pre-built DNN models. 
+a single node using CPU only. This uses the daily build of the H2O 'Deepwater' branch which supports various pre-built DNN models. 
 
 ## Configuration
 Please see refer to this [set of sample configuration files](./config) for
