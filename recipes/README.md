@@ -22,6 +22,7 @@ Use the following links to quickly navigate to recipe collections:
 4. [Molecular Dynamics (MD)](#md)
 5. [RemoteFS](#remotefs)
 6. [Video Processing](#video)
+7. [Computational Chemistry](#chemistry)
 
 ## <a name="benchmarks"></a>Benchmarks
 #### [HPCG-Infiniband-IntelMPI](./HPCG-Infiniband-IntelMPI)
@@ -92,6 +93,14 @@ This Chainer-CPU recipe contains information on how to Dockerize
 #### [Chainer-GPU](./Chainer-GPU)
 This Chainer-GPU recipe contains information on how to Dockerize
 [Chainer](http://chainer.org/) on GPUs for use with N-Series Azure VMs.
+
+#### [H2O-CPU](./H2O-CPU)
+This H2O-CPU recipe contains information on how to Dockerize
+[H2O](http://h2o.ai/) Deepwater for use on Azure Batch compute nodes.
+
+#### [H2O-GPU](./H2O-GPU)
+This H2O-GPU recipe contains information on how to Dockerize
+[H2O](http://h2o.ai/) Deepwater for use with N-Series Azure VMs.
 
 #### [Keras+Theano-CPU](./Keras+Theano-CPU)
 This Keras+Theano-CPU recipe contains information on how to Dockerize
@@ -172,3 +181,8 @@ single VM NFS server.
 #### [FFmpeg-GPU](./FFmpeg-GPU)
 This recipe contains information on how to use Dockerized
 [FFmpeg](https://ffmpeg.org/) on GPUs for use with the N-series Azure VMs.
+
+## <a name="video"></a>Computational Chemistry
+#### [PSI4-CPU](./PSI4-GPU)
+This recipe contains information on how to use Dockerized
+[PSI4](https://www.psicode.org/).
